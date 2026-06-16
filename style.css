@@ -1,0 +1,21 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#006d6f;padding:20px}
+.container{max-width:900px;margin:auto}
+.card{background:#f3f3f3;border-radius:25px;padding:30px;box-shadow:0 10px 25px rgba(0,0,0,.15)}
+.cabecalho{text-align:center;margin-bottom:25px}
+.cabecalho h1{font-size:42px;color:#161b69}
+.cabecalho p{color:#666}
+.input-group{margin-bottom:15px}
+label{display:block;font-weight:bold;margin-bottom:5px}
+input{width:100%;padding:14px;border:1px solid #ccc;border-radius:10px}
+.btn{width:100%;padding:15px;border:none;border-radius:40px;color:#fff;font-weight:bold;cursor:pointer;margin-top:10px}
+.calc{background:#161b69}
+.pdf{background:#198754}
+.reset{background:#d32f2f}
+.box{background:#e8e8e8;padding:20px;border-radius:15px;margin-top:20px}
+.item{background:#fff;border-left:5px solid #161b69;padding:15px;border-radius:10px;margin-top:10px}
+@media print{
+body{background:#fff}
+.btn{display:none}
+.card{box-shadow:none}
+}
